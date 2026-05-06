@@ -1,7 +1,7 @@
 const minimum = Math.min(45, 21, 65, 99, 126, 5, -2); //find min number.....
 console.log(minimum);
 
-const maximum = Math.max(45, 21, 65, 99, 126, 5, -2); //find max number..
+const maximum = Math.max(45, 21, 65, 99, 126, 5, -2); //find max number....
 console.log(maximum);
 
 const pie = Math.PI;//  Pie value..
