@@ -20,3 +20,17 @@ console.log(num);
 //2...
 const number = Math.round(7.6);
 console.log(number);
+
+//Object Constructor....
+function person(){
+    this.first_name = 'S M Nazib';
+    this.last_name = 'Ul Alam';
+    this.age = 24;
+    this.nationality = true;
+    this.getName = ()=>{
+        return `My Name is ${this.first_name} ${this.last_name}, age is ${this.age} and Nationality is Bangladeshi - ${this.nationality}`
+    }
+}
+
+const instancePerson = new person();
+console.log(instancePerson.getName());
