@@ -34,3 +34,37 @@ function person(){
 
 const instancePerson = new person();
 console.log(instancePerson.getName());
+//Can't redeclear multiple class...
+class Person{
+    first_name = 'Nazib';
+    age = 24;
+    getName(){
+        return `${this.first_name} and age is ${age}`;
+    }
+}
+class Person{
+    first_name = 'Nafiz';
+    age = 28;
+    getName(){
+        return `${this.first_name} and age is ${age}`;
+    }
+}
+const myPerson = new Person();
+console.log(myPerson);
+//Also cann't use expression class
+let Person = class{
+    first_name = 'Nazib';
+    age = 24;
+    getName(){
+        return `${this.first_name} and age is ${age}`;
+    }
+}
+let Person = class{
+    first_name = 'Nafiz';
+    age = 28;
+    getName(){
+        return `${this.first_name} and age is ${age}`;
+    }
+}
+const myPerson = new Person();
+console.log(myPerson);
