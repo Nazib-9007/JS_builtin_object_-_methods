@@ -68,3 +68,13 @@ let Person = class{
 }
 const myPerson = new Person();
 console.log(myPerson);
+
+class addition{
+    num1 = 10;
+    num2 = 20;
+    add(){
+       return this.num1 + this.num1;
+    }
+}
+let myAdd = new addition();
+console.log(myAdd.add());
