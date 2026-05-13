@@ -11,17 +11,17 @@ console.log(Math.abs(-7));// abs() always gives positive value if pass negeative
 console.log(Math.round(5.6));//round provide complete number not provide fraction number..
 console.log(Math.floor(5.7)); //floor provide near number..
 console.log(Math.ceil(4.7)); //ceil also provide near positive value..
-console.log(Math.random()); //random() provide any random number between 0 to 1;
+console.log(Math.random()); //random() provide any random number between 0 to 1;.....
 
-//Math problem solving...
-//1...
+//Math problem solving........
+//1......
 const num =Math.min(45, 11, 89, 23, 56,-12,-56);
 console.log(num);
-//2...
+//2......
 const number = Math.round(7.6);
 console.log(number);
 
-//Object Constructor....
+//Object Constructor......
 function person(){
     this.first_name = 'S M Nazib';
     this.last_name = 'Ul Alam';
@@ -34,7 +34,7 @@ function person(){
 
 const instancePerson = new person();
 console.log(instancePerson.getName());
-//Can't redeclear multiple class...
+//Can't redeclear multiple class.......
 class Person{
     first_name = 'Nazib';
     age = 24;
@@ -51,7 +51,7 @@ class Person{
 }
 const myPerson = new Person();
 console.log(myPerson);
-//Also cann't use expression class
+//Also cann't use expression class......
 let Person = class{
     first_name = 'Nazib';
     age = 24;
